@@ -40,7 +40,7 @@ function App() {
                       </article>
                     )
           })}
-          <button className='prev'>
+          <button className='prev' onClick={()=> setIndex(index -1)}>
             <FiChevronLeft />
           </button>
           <button className='next'>
