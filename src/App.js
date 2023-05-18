@@ -8,6 +8,14 @@ function App() {
   const[people, setPeople] = useState(data);
   const[index, setIndex]  = useState(0);
 
+  useEffect(()=>{
+    const lastIndex = people.length -1;
+    if (index < 0 ) {
+      setIndex(lastIndex);
+    }
+
+  }, [index, people])
+
 
   return (
     <section className="section">
