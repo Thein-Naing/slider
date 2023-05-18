@@ -1,4 +1,5 @@
-# react-projects-7-slider
+you can check final site here: https://react-exercises-slider.netlify.app/
+
 
 #### IN ACTION
 
