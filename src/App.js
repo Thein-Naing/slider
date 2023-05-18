@@ -24,7 +24,7 @@ function App() {
 
                     const {id, image, name, title, quote} = person;
                     return (
-                      <article>
+                      <article key={id}>
 
                       </article>
 
